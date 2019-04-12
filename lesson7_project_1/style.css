@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #00496E;
+	background-color: #00496E;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+	padding: 0 40px;
+}
+h1 {
+	font-size: 30px;
+	padding: 0 40px;
+	font-variant: normal;
+	letter-spacing: .2em;
+	line-height: 2em;
+	margin: 0;
+}
+h2 {
+	font-size: 23px;
+	padding: 0 40px;
+	font-variant: normal;
+	letter-spacing: 0.2em;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	border-bottom-width: 2px;
+	border-bottom-style: inset;
+	border-bottom-color: #00496E;
+	padding: 0 40px;
+	font-variant: normal;
+	font-style: italic;
+}
+h4 {
+	font-size: 18px;
+	letter-spacing: 0.2em;
+	padding: 0 40px;
+	font-variant: normal;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bolder;
+	color: #17395C;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #7C96B0;
+	text-decoration: none;
+}
+a:hover {
+	color: #7C96B0;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+	padding: 0 40px;
+}
+ol {
+	margin-left: 60px;
+	padding: 0 40px;
+
+}
+
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #00496E 2px;
+
+}
+td {
+	padding: 10px;
+	border: solid #00496E 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 6px;
+	border: solid #00496E 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #00496E 1px;
+}
+
+
+img {
+	border: solid #00496E 1px;
+
+}
+
+iframe {
+	border: solid #00496E 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+footer {
+	font-size: .8em;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #CBECFC;
+	overflow: hidden;
+}
+
+#header {
+	width: 100%;
+	background-color: #EDF7FC;
+	border-bottom: 2px solid #00496E;
+}
+
+#content {
+	width: 600px;
+	float: left;
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 250px; 
+	float: left;
+	margin-top: 80px;
+	margin-right: 20px;
+	background: #EDF7FC;
+	border: 1px solid #00496E;
+	border-radius: 40px;
+	box-shadow: 10px 10px 5px #00496E;
+}
+#sidebar p{
+	padding: 10px;
+	float: right;
+}
+#footer {
+	width: 100%;
+	background-color: #EDF7FC;
+	clear: both;
+}
+
+#header1 {
+	width: 100%;
+	background-color: #EDF7FC;
+	border-bottom: 2px solid #00496E;
+}
+
+#content1 {
+	width: 100%;
+	float: left;
+}
+
+#footer1 {
+	width: 100%;
+	background-color: #EDF7FC;
+	clear: both;
+}
